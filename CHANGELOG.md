@@ -1,5 +1,9 @@
 # Changelog
 
+# 3.3.1-moodle.2
+
+- Fixed empty GZIP encoded empty response exception
+
 # 3.3.1
 
 - Fixed #427: missing connection check on Android (thanks moshe5745)

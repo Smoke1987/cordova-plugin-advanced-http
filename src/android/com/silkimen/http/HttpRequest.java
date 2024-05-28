@@ -1756,7 +1756,7 @@ public class HttpRequest {
         }
     }
 
-    if (!uncompress || !ENCODING_GZIP.equals(contentEncoding()))
+    if (!uncompress || !ENCODING_GZIP.equals(contentEncoding()) || contentLength() <= 0)
       return stream;
     else
       try {

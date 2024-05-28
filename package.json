@@ -1,6 +1,6 @@
 {
   "name": "@moodlehq/cordova-plugin-advanced-http",
-  "version": "3.3.1-moodle.1",
+  "version": "3.3.1-moodle.2",
   "description": "Cordova / Phonegap plugin for communicating with HTTP servers using SSL pinning",
   "scripts": {
     "update:cert": "node ./scripts/update-e2e-server-cert.js && node ./scripts/update-e2e-client-cert.js",
@@ -34,12 +34,9 @@
     "ssl",
     "tls"
   ],
-  "engines": [
-    {
-      "name": "cordova",
-      "version": ">=4.0.0"
-    }
-  ],
+  "engines": {
+    "cordova": ">=4.0.0"
+  },
   "author": "Wymsee",
   "contributors": [
     "devgeeks",
